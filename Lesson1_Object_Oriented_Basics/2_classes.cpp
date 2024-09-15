@@ -10,7 +10,7 @@ public:  // classes require a public access modifier for data members to be acce
 
 class id2 {
 public:  // Add public access specifier if you want to access these members outside the class
-    std::string nombre;
+    std::string name;
     std::string address;
     std::string city;
     std::string state;
@@ -31,7 +31,7 @@ int main()
     student_2.num = 2222;    
 
     id2 student_3;
-    student_3.nombre = "Richard Dickson";
+    student_3.name = "Richard Dickson";
     student_3.address = "1234 Elm St";     // Random address
     student_3.city = "Springfield";        // Random city
     student_3.state = "IL";                // Random state
@@ -43,7 +43,7 @@ int main()
     std::cout << student_2.name << " " << student_2.num << "\n";    
 
     // Print student_3 information
-    std::cout << student_3.nombre << ", " << student_3.address << ", " 
+    std::cout << student_3.name << ", " << student_3.address << ", " 
               << student_3.city << ", " << student_3.state << ", " 
               << student_3.zip << ", " << student_3.studentId << "\n";
 
