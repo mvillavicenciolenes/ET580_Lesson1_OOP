@@ -7,8 +7,12 @@ private:                                        // private data members are not 
     int num;
 public:
     // accessor functions                       // acessors are member functions that are used to read from private data members
-    std::string getName() { return name; }
-    int getNum() { return num; }
+    std::string getName() { 
+        return name; 
+        }
+    int getNum() { 
+        return num; 
+        }
 
     // mutator functions                        // mutators are member functions that are used to write to private data members
     void setName(std::string n) { name = n; }
